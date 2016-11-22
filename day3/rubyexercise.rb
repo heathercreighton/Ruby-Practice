@@ -25,4 +25,8 @@
 # ================================================================
 
 
-calss ['bri', 'santi', 'nate', 'katie', 'heather', 'lucian', 'joe', 'james', 'aleks']
+student ['bri', 'santi', 'nate', 'katie', 'heather', 'lucian', 'joe', 'james', 'aleks']
+
+student.shuffle!
+
+	puts student
