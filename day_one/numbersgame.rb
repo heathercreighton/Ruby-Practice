@@ -4,7 +4,7 @@ comp = rand(1..100)
 
 if number == comp 
 	put "you won"
-elsif ((number - 5) < guess || (number + 5) > guess)
+elsif (comp - 5) < number || (comp + 5) > number
 	puts "so close! my number was #{comp}! "
 
 else 
